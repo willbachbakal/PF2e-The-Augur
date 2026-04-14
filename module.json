@@ -1,6 +1,6 @@
 {
-  "id": "",
-  "title": "",
+  "id": "the-augur",
+  "title": "The Augur",
   "version": "#{VERSION}#",
   "library": "false",
   "compatibility": {
@@ -12,15 +12,23 @@
     "": {
       "pf2e-homebrew": {
         "featTraits": {
-          "": ""
+          "augur": "Augur",
+          "fate": {
+            "label": "Fate",
+            "description": "A fate effect has the fortune trait if it improves a roll or its result, or the misfortune effect if it worsens it; this prevents the use of multiple beneficial or detrimental effects on the same roll and cancels out opposite effects as normal."
+          }
         },
         "spellTraits": {
-          "": ""
+          "augur": "Augur",
+          "fate": {
+            "label": "Fate",
+            "description": "A fate effect has the fortune trait if it improves a roll or its result, or the misfortune effect if it worsens it; this prevents the use of multiple beneficial or detrimental effects on the same roll and cancels out opposite effects as normal."
+          }
         }
       }
     }
   },
-  "description": "",
+  "description": "Predict the future and bend fate with this occult Wisdom spellcasting class for Pathfinder Second Edition!",
   "authors": [
     {
       "name": "Teridax68",
@@ -29,9 +37,9 @@
   ],
   "packs": [
     {
-      "name": "",
-      "label": "",
-      "path": "packs/",
+      "name": "the-augur",
+      "label": "The Augur",
+      "path": "packs/the-augur",
       "type": "Item",
       "system": "pf2e",
       "flags": {}
